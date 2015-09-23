@@ -1,1 +1,1 @@
-# TEPayPassWord
+这是一个模仿支付宝支付密码输入的UI，目前采用swift1.2
