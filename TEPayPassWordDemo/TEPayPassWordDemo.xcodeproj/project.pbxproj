@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B63640D1BAC0D3D001D5C0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B63640C1BAC0D3D001D5C0C /* AppDelegate.swift */; };
+		6B63640F1BAC0D3D001D5C0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B63640E1BAC0D3D001D5C0C /* ViewController.swift */; };
+		6B6364121BAC0D3D001D5C0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B6364101BAC0D3D001D5C0C /* Main.storyboard */; };
+		6B6364141BAC0D3D001D5C0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B6364131BAC0D3D001D5C0C /* Images.xcassets */; };
+		6B6364171BAC0D3D001D5C0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B6364151BAC0D3D001D5C0C /* LaunchScreen.xib */; };
+		6B6364231BAC0D3E001D5C0C /* TEPayPassWordDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6364221BAC0D3E001D5C0C /* TEPayPassWordDemoTests.swift */; };
+		6B63642D1BAC1124001D5C0C /* TEPayPassWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B63642C1BAC1124001D5C0C /* TEPayPassWordView.swift */; };
+		9ACBA290B1E4CE1CA6B20E3B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF21FFC85813258007035CB4 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B63641D1BAC0D3D001D5C0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B6363FF1BAC0D3D001D5C0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B6364061BAC0D3D001D5C0C;
+			remoteInfo = TEPayPassWordDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F249DDE9EF850C0590A442A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6B6364071BAC0D3D001D5C0C /* TEPayPassWordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEPayPassWordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B63640B1BAC0D3D001D5C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B63640C1BAC0D3D001D5C0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B63640E1BAC0D3D001D5C0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B6364111BAC0D3D001D5C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B6364131BAC0D3D001D5C0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6B6364161BAC0D3D001D5C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6B63641C1BAC0D3D001D5C0C /* TEPayPassWordDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TEPayPassWordDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B6364211BAC0D3D001D5C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B6364221BAC0D3E001D5C0C /* TEPayPassWordDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEPayPassWordDemoTests.swift; sourceTree = "<group>"; };
+		6B63642C1BAC1124001D5C0C /* TEPayPassWordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TEPayPassWordView.swift; sourceTree = "<group>"; };
+		BF21FFC85813258007035CB4 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C64F5647B22263EA9B73C9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B6364041BAC0D3D001D5C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACBA290B1E4CE1CA6B20E3B /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6364191BAC0D3D001D5C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1542398E9A034A5338EF9AF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6C64F5647B22263EA9B73C9 /* Pods.debug.xcconfig */,
+				5F249DDE9EF850C0590A442A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F8A37E2E95BFCECB387E09D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF21FFC85813258007035CB4 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B6363FE1BAC0D3D001D5C0C = {
+			isa = PBXGroup;
+			children = (
+				6B6364091BAC0D3D001D5C0C /* TEPayPassWordDemo */,
+				6B63641F1BAC0D3D001D5C0C /* TEPayPassWordDemoTests */,
+				6B6364081BAC0D3D001D5C0C /* Products */,
+				1542398E9A034A5338EF9AF3 /* Pods */,
+				5F8A37E2E95BFCECB387E09D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B6364081BAC0D3D001D5C0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B6364071BAC0D3D001D5C0C /* TEPayPassWordDemo.app */,
+				6B63641C1BAC0D3D001D5C0C /* TEPayPassWordDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B6364091BAC0D3D001D5C0C /* TEPayPassWordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6B63640C1BAC0D3D001D5C0C /* AppDelegate.swift */,
+				6B63640E1BAC0D3D001D5C0C /* ViewController.swift */,
+				6B63642C1BAC1124001D5C0C /* TEPayPassWordView.swift */,
+				6B6364101BAC0D3D001D5C0C /* Main.storyboard */,
+				6B6364131BAC0D3D001D5C0C /* Images.xcassets */,
+				6B6364151BAC0D3D001D5C0C /* LaunchScreen.xib */,
+				6B63640A1BAC0D3D001D5C0C /* Supporting Files */,
+			);
+			path = TEPayPassWordDemo;
+			sourceTree = "<group>";
+		};
+		6B63640A1BAC0D3D001D5C0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B63640B1BAC0D3D001D5C0C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B63641F1BAC0D3D001D5C0C /* TEPayPassWordDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B6364221BAC0D3E001D5C0C /* TEPayPassWordDemoTests.swift */,
+				6B6364201BAC0D3D001D5C0C /* Supporting Files */,
+			);
+			path = TEPayPassWordDemoTests;
+			sourceTree = "<group>";
+		};
+		6B6364201BAC0D3D001D5C0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B6364211BAC0D3D001D5C0C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B6364061BAC0D3D001D5C0C /* TEPayPassWordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6364261BAC0D3E001D5C0C /* Build configuration list for PBXNativeTarget "TEPayPassWordDemo" */;
+			buildPhases = (
+				A8B9D93D2DA3196067AC928A /* Check Pods Manifest.lock */,
+				6B6364031BAC0D3D001D5C0C /* Sources */,
+				6B6364041BAC0D3D001D5C0C /* Frameworks */,
+				6B6364051BAC0D3D001D5C0C /* Resources */,
+				8A7975B351A2E109CCE1FD05 /* Embed Pods Frameworks */,
+				05CD702D2A08272442598746 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TEPayPassWordDemo;
+			productName = TEPayPassWordDemo;
+			productReference = 6B6364071BAC0D3D001D5C0C /* TEPayPassWordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B63641B1BAC0D3D001D5C0C /* TEPayPassWordDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6364291BAC0D3E001D5C0C /* Build configuration list for PBXNativeTarget "TEPayPassWordDemoTests" */;
+			buildPhases = (
+				6B6364181BAC0D3D001D5C0C /* Sources */,
+				6B6364191BAC0D3D001D5C0C /* Frameworks */,
+				6B63641A1BAC0D3D001D5C0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B63641E1BAC0D3D001D5C0C /* PBXTargetDependency */,
+			);
+			name = TEPayPassWordDemoTests;
+			productName = TEPayPassWordDemoTests;
+			productReference = 6B63641C1BAC0D3D001D5C0C /* TEPayPassWordDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B6363FF1BAC0D3D001D5C0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Terry;
+				TargetAttributes = {
+					6B6364061BAC0D3D001D5C0C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					6B63641B1BAC0D3D001D5C0C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6B6364061BAC0D3D001D5C0C;
+					};
+				};
+			};
+			buildConfigurationList = 6B6364021BAC0D3D001D5C0C /* Build configuration list for PBXProject "TEPayPassWordDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B6363FE1BAC0D3D001D5C0C;
+			productRefGroup = 6B6364081BAC0D3D001D5C0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B6364061BAC0D3D001D5C0C /* TEPayPassWordDemo */,
+				6B63641B1BAC0D3D001D5C0C /* TEPayPassWordDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B6364051BAC0D3D001D5C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6364121BAC0D3D001D5C0C /* Main.storyboard in Resources */,
+				6B6364171BAC0D3D001D5C0C /* LaunchScreen.xib in Resources */,
+				6B6364141BAC0D3D001D5C0C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B63641A1BAC0D3D001D5C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05CD702D2A08272442598746 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A7975B351A2E109CCE1FD05 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8B9D93D2DA3196067AC928A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B6364031BAC0D3D001D5C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B63642D1BAC1124001D5C0C /* TEPayPassWordView.swift in Sources */,
+				6B63640F1BAC0D3D001D5C0C /* ViewController.swift in Sources */,
+				6B63640D1BAC0D3D001D5C0C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6364181BAC0D3D001D5C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6364231BAC0D3E001D5C0C /* TEPayPassWordDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B63641E1BAC0D3D001D5C0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B6364061BAC0D3D001D5C0C /* TEPayPassWordDemo */;
+			targetProxy = 6B63641D1BAC0D3D001D5C0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B6364101BAC0D3D001D5C0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B6364111BAC0D3D001D5C0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B6364151BAC0D3D001D5C0C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B6364161BAC0D3D001D5C0C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B6364241BAC0D3E001D5C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B6364251BAC0D3E001D5C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B6364271BAC0D3E001D5C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C64F5647B22263EA9B73C9 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TEPayPassWordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B6364281BAC0D3E001D5C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F249DDE9EF850C0590A442A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TEPayPassWordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B63642A1BAC0D3E001D5C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TEPayPassWordDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TEPayPassWordDemo.app/TEPayPassWordDemo";
+			};
+			name = Debug;
+		};
+		6B63642B1BAC0D3E001D5C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TEPayPassWordDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TEPayPassWordDemo.app/TEPayPassWordDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B6364021BAC0D3D001D5C0C /* Build configuration list for PBXProject "TEPayPassWordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6364241BAC0D3E001D5C0C /* Debug */,
+				6B6364251BAC0D3E001D5C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B6364261BAC0D3E001D5C0C /* Build configuration list for PBXNativeTarget "TEPayPassWordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6364271BAC0D3E001D5C0C /* Debug */,
+				6B6364281BAC0D3E001D5C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B6364291BAC0D3E001D5C0C /* Build configuration list for PBXNativeTarget "TEPayPassWordDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B63642A1BAC0D3E001D5C0C /* Debug */,
+				6B63642B1BAC0D3E001D5C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B6363FF1BAC0D3D001D5C0C /* Project object */;
+}
